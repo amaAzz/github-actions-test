@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+
+  testPiplineRestApi:
+    image:  hamzaazzab/github-cicd-actions:latest
+    container_name: githubCicdActions
+    ports:
+      - "7777:7777"
