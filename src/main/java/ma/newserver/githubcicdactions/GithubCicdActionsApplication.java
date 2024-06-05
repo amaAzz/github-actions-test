@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 public class GithubCicdActionsApplication {
+
     public String welcome(){
         return "Hamza lwa3err is here on the server li dwa ndih lblyssa";
     }
