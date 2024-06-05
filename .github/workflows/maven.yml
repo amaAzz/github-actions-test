@@ -57,4 +57,4 @@ jobs:
             docker pull hamza2277/my_img
             docker stop container-hamza || true
             docker rm container-hamza || true
-            docker run -d --name container-hamza -p 7777:8080 -v /home/tp1/HamzaAzzab:/my_img hamza2277/my_img
+            docker run -d --name container-hamza -p 7777:8080 -v /home/tp1/HamzaAzzab:/app hamza2277/my_img
